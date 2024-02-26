@@ -1,6 +1,6 @@
-import ExpenseItem from "./component/ExpenseItem";
+import ExpenseItem from "./component/Expense/ExpenseItem";
 
-function App() {
+const App=()=> {
   const expenses = [
     {
       title: "Car Insurance and life insurances",
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div>
-      <h2>Expense Track Application</h2>
+      <h1>......Expense Track Application.........</h1>
       <ExpenseItem 
         title={expenses[0].title}
         amount={expenses[0].amount}
